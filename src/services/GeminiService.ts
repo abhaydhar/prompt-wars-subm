@@ -1,8 +1,8 @@
 import { GoogleGenerativeAI } from "@google/generative-ai";
 import { StudentProfile, ContentOutput } from "../types/student";
 
-// The user provided the API key in the request
-const API_KEY = "AIzaSyBiKDxAp2g7LFMN0mWDrC-6xBYW7WCg0YA";
+// Using Vite environment variables for security and GCP deployment
+const API_KEY = import.meta.env.VITE_GEMINI_API_KEY;
 const genAI = new GoogleGenerativeAI(API_KEY);
 
 export const transformContent = async (
