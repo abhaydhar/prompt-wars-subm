@@ -163,22 +163,22 @@ const ContentResult: React.FC<ContentResultProps> = ({ content, onBack }) => {
               borderBottom: '1px solid rgba(255,255,255,0.1)'
             }}
           >
-            <Tab icon={<Video size={18} />} label="Sign Language" iconPosition="start" sx={{ px: 4 }} />
-            <Tab icon={<FileText size={18} />} label="Screen Reader" iconPosition="start" sx={{ px: 4 }} />
-            <Tab icon={<Fingerprint size={18} />} label="Tactile Guide" iconPosition="start" sx={{ px: 4 }} />
-            <Tab icon={<Layers size={18} />} label="Simplified" iconPosition="start" sx={{ px: 4 }} />
-            <Tab icon={<Layout size={18} />} label="Kinesthetic" iconPosition="start" sx={{ px: 4 }} />
-            <Tab icon={<Repeat size={18} />} label="Pace & Summary" iconPosition="start" sx={{ px: 4 }} />
+            <Tab icon={<Video size={18} />} label="Sign Language" id="tab-0" aria-controls="tabpanel-0" iconPosition="start" sx={{ px: 4 }} />
+            <Tab icon={<FileText size={18} />} label="Screen Reader" id="tab-1" aria-controls="tabpanel-1" iconPosition="start" sx={{ px: 4 }} />
+            <Tab icon={<Fingerprint size={18} />} label="Tactile Guide" id="tab-2" aria-controls="tabpanel-2" iconPosition="start" sx={{ px: 4 }} />
+            <Tab icon={<Layers size={18} />} label="Simplified" id="tab-3" aria-controls="tabpanel-3" iconPosition="start" sx={{ px: 4 }} />
+            <Tab icon={<Layout size={18} />} label="Kinesthetic" id="tab-4" aria-controls="tabpanel-4" iconPosition="start" sx={{ px: 4 }} />
+            <Tab icon={<Repeat size={18} />} label="Pace & Summary" id="tab-5" aria-controls="tabpanel-5" iconPosition="start" sx={{ px: 4 }} />
           </Tabs>
         </Box>
 
         <Box sx={{ mt: 4 }}>
-          {tab === 0 && renderSignLanguage()}
-          {tab === 1 && renderScreenReader()}
-          {tab === 2 && renderTactile()}
-          {tab === 3 && renderSimplified()}
-          {tab === 4 && renderKinesthetic()}
-          {tab === 5 && renderSummaries()}
+          <div role="tabpanel" hidden={tab !== 0} id="tabpanel-0" aria-labelledby="tab-0">{tab === 0 && renderSignLanguage()}</div>
+          <div role="tabpanel" hidden={tab !== 1} id="tabpanel-1" aria-labelledby="tab-1">{tab === 1 && renderScreenReader()}</div>
+          <div role="tabpanel" hidden={tab !== 2} id="tabpanel-2" aria-labelledby="tab-2">{tab === 2 && renderTactile()}</div>
+          <div role="tabpanel" hidden={tab !== 3} id="tabpanel-3" aria-labelledby="tab-3">{tab === 3 && renderSimplified()}</div>
+          <div role="tabpanel" hidden={tab !== 4} id="tabpanel-4" aria-labelledby="tab-4">{tab === 4 && renderKinesthetic()}</div>
+          <div role="tabpanel" hidden={tab !== 5} id="tabpanel-5" aria-labelledby="tab-5">{tab === 5 && renderSummaries()}</div>
         </Box>
       </Container>
     </Box>

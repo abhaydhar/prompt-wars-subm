@@ -54,22 +54,38 @@ export const transformContent = async (
 
   // For demonstration, we'll send the prompt. 
   // In a production environment, we'd include the file data for Vision/Flash 1.5
-  const result = await model.generateContent([prompt]);
-  const responseText = result.response.text();
-  
   try {
+    const result = await model.generateContent([prompt]);
+    const responseText = result.response.text();
+    
+    if (!responseText) {
+      throw new Error("Empty response from Gemini API");
+    }
+
     const data = JSON.parse(responseText);
+    
+    // Validate output structure
+    if (!data.formats || !data.originalTitle) {
+      throw new Error("Invalid response format from Gemini API");
+    }
+
     return {
       id: Math.random().toString(36).substr(2, 9),
-      originalTitle: file.name,
+      originalTitle: data.originalTitle || file.name,
       formats: {
         ...data.formats,
-        // Mocking the sign language video URL for now
-        signLanguageVideo: "https://www.youtube.com/embed/SytfI69LhYg", 
+        // Mocking the sign language video URL (In prod, use Media Translation API)
+        signLanguageVideo: data.formats.signLanguageVideo || "https://www.youtube.com/embed/SytfI69LhYg", 
       }
     };
-  } catch (e) {
-    console.error("Failed to parse Gemini response", e);
-    throw new Error("Transformation failed");
+  } catch (err: any) {
+    console.error("[AdaptiveEd] Gemini Transformation Error:", err);
+    
+    // Handle specific rate limit or auth errors if needed
+    if (err.message?.includes("429")) {
+      throw new Error("Rate limit exceeded. Please try again in 1 minute.");
+    }
+    
+    throw new Error(err.message || "Transformation failed. Please check your API key and file type.");
   }
 };

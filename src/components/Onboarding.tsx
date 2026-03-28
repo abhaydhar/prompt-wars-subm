@@ -100,19 +100,21 @@ const Onboarding: React.FC = () => {
             <Typography variant="body1" color="text.secondary" mb={4}>Adjust your interface controls.</Typography>
             <Stack spacing={4}>
               <Box>
-                <Typography gutterBottom>Learning Pace: {formData.pace}x</Typography>
+                <Typography id="pace-slider-label" gutterBottom>Learning Pace: {formData.pace}x</Typography>
                 <Slider 
                   value={formData.pace} 
                   min={0.5} max={2} step={0.1} 
+                  aria-labelledby="pace-slider-label"
                   onChange={(_, val) => setFormData({...formData, pace: val as number})}
                   marks={[{value: 1, label: 'Normal'}]}
                 />
               </Box>
               <Box>
-                <Typography gutterBottom>Text Size: {formData.textSize}px</Typography>
+                <Typography id="text-size-label" gutterBottom>Text Size: {formData.textSize}px</Typography>
                 <Slider 
                   value={formData.textSize} 
                   min={12} max={32} step={2} 
+                  aria-labelledby="text-size-label"
                   onChange={(_, val) => setFormData({...formData, textSize: val as number})}
                 />
               </Box>

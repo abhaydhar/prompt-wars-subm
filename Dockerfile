@@ -16,10 +16,14 @@ RUN npm run build
 
 # Step 2: Serve the application with Nginx
 FROM nginx:alpine
+
+# Copy the build output
 COPY --from=build /app/dist /usr/share/nginx/html
 
-# Custom nginx config to handle React Router client-side routing
-COPY nginx.conf /etc/nginx/conf.d/default.conf
+# Copy the config template
+COPY nginx.conf /etc/nginx/conf.d/config.template
 
-EXPOSE 8080
-CMD ["nginx", "-g", "daemon off;"]
+# Inject $PORT into the config and start Nginx
+# Cloud Run provides $PORT, defaulting to 8080 if not set
+ENV PORT=8080
+CMD ["/bin/sh", "-c", "envsubst '${PORT}' < /etc/nginx/conf.d/config.template > /etc/nginx/conf.d/default.conf && nginx -g 'daemon off;'"]
