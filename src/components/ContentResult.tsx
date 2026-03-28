@@ -6,8 +6,7 @@ import {
 } from '@mui/material';
 import { 
   ArrowLeft, Video, FileText, Fingerprint, Layers, 
-  Layout, Repeat, Clock, ChevronRight, Zap, Play, 
-  Download, Share2
+  Layout, Repeat, Download, Share2
 } from 'lucide-react';
 import { ContentOutput } from '../types/student';
 

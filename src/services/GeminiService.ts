@@ -22,7 +22,7 @@ export const transformContent = async (
     reader.readAsDataURL(file);
   });
   
-  const base64Content = await fileContentPromise;
+  await fileContentPromise;
 
   const prompt = `
     You are AdaptiveEd, an accessibility expert. Transform the following educational content 

@@ -28,6 +28,7 @@ export interface ContentOutput {
   originalTitle: string;
   formats: {
     signLanguageVideo?: string; // URL
+    signLanguageScript?: string; // Script text
     screenReaderTranscript?: string; // HTML
     tactileDescription?: string; // Text
     simplifiedText?: string; // Grade 5

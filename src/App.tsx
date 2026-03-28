@@ -1,5 +1,5 @@
 import React from 'react';
-import { Box, CssBaseline, ThemeProvider, createTheme } from '@mui/material';
+import { Box } from '@mui/material';
 import { useStudentStore } from './store/useStudentStore';
 import Onboarding from './components/Onboarding';
 import Dashboard from './components/Dashboard';

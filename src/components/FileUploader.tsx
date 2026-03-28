@@ -2,7 +2,7 @@ import React, { useState, useRef } from 'react';
 import { 
   Box, Typography, Button, LinearProgress, Stack, Fade, Alert 
 } from '@mui/material';
-import { Upload, File, FileVideo, FileImage, FileText, CheckCircle, AlertCircle } from 'lucide-react';
+import { Upload, FileVideo, FileImage, FileText, AlertCircle } from 'lucide-react';
 import { useStudentStore } from '../store/useStudentStore';
 import { transformContent } from '../services/GeminiService';
 

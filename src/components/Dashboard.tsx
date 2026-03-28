@@ -4,8 +4,8 @@ import {
   Button, Stack, Paper, Chip, Avatar, Tooltip
 } from '@mui/material';
 import { 
-  Plus, Upload, Settings, LogOut, History, BookOpen, 
-  Video, FileText, Fingerprint, Layers, Layout, Repeat 
+  Plus, Upload, Settings, LogOut, BookOpen, 
+  Video, Fingerprint
 } from 'lucide-react';
 import { useStudentStore } from '../store/useStudentStore';
 import FileUploader from './FileUploader';

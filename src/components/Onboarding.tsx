@@ -1,10 +1,10 @@
 import React, { useState } from 'react';
 import { 
   Box, Container, Typography, Button, Card, CardContent, 
-  FormControl, FormLabel, RadioGroup, FormControlLabel, Radio, 
-  Checkbox, FormGroup, Slider, Switch, Divider, Stack 
+  RadioGroup, Radio, 
+  Checkbox, Slider, Switch, Stack 
 } from '@mui/material';
-import { Accessibility, User, ArrowRight, Check } from 'lucide-react';
+import { Accessibility, ArrowRight, Check } from 'lucide-react';
 import { useStudentStore } from '../store/useStudentStore';
 import { DisabilityType, LearningPreference, StudentProfile } from '../types/student';
 
