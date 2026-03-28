@@ -25,5 +25,5 @@ COPY nginx.conf /etc/nginx/conf.d/config.template
 
 # Inject $PORT into the config and start Nginx
 # Cloud Run provides $PORT, defaulting to 8080 if not set
-ENV PORT=8080
+ENV PORT=80
 CMD ["/bin/sh", "-c", "envsubst '${PORT}' < /etc/nginx/conf.d/config.template > /etc/nginx/conf.d/default.conf && nginx -g 'daemon off;'"]
