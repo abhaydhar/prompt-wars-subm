@@ -1,5 +1,5 @@
 # Step 1: Build the application
-FROM node:20-slim AS build
+FROM node:20 AS build
 WORKDIR /app
 
 # Vite needs the API key at build time
@@ -7,7 +7,7 @@ ARG VITE_GEMINI_API_KEY
 ENV VITE_GEMINI_API_KEY=$VITE_GEMINI_API_KEY
 
 COPY package*.json ./
-RUN npm ci
+RUN npm install
 COPY . .
 # Skip tsc to avoid strict-mode failures; Vite handles transpilation
 RUN npx vite build
