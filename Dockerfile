@@ -2,6 +2,10 @@
 FROM node:20-slim AS build
 WORKDIR /app
 
+# Add a build argument for the API key (Vite needs this at build time)
+ARG VITE_GEMINI_API_KEY
+ENV VITE_GEMINI_API_KEY=$VITE_GEMINI_API_KEY
+
 # Copy package files and install dependencies
 COPY package*.json ./
 RUN npm install
