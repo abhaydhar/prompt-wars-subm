@@ -53,10 +53,11 @@ const FileUploader: React.FC<FileUploaderProps> = ({ onComplete }) => {
       setTimeout(() => {
         onComplete();
       }, 800);
-    } catch (err) {
-      console.error(err);
-      setError("Failed to process content. Ensure your API key is valid and file type is supported.");
+    } catch (err: any) {
+      console.error("[AdaptiveEd] Upload error:", err);
+      setError(err.message || "Failed to process content. Ensure your API key is valid and file type is supported.");
       setUploading(false);
+      setProgress(0);
     }
   };
 

@@ -31,6 +31,10 @@ steps:
       - '--allow-unauthenticated'
       - '--port'
       - '8080'
+      - '--memory'
+      - '512Mi'
+      - '--timeout'
+      - '300'
 
 images:
   - 'gcr.io/$PROJECT_ID/$_SERVICE_NAME:$COMMIT_SHA'

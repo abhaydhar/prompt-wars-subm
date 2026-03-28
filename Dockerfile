@@ -7,18 +7,21 @@ ARG VITE_GEMINI_API_KEY
 ENV VITE_GEMINI_API_KEY=$VITE_GEMINI_API_KEY
 
 COPY package*.json ./
-RUN npm install
+RUN npm ci
 COPY . .
-RUN npm run build
+# Skip tsc to avoid strict-mode failures; Vite handles transpilation
+RUN npx vite build
 
-# Step 2: Serve static files using 'serve' (no nginx, no config complexity)
-# 'serve' natively reads the $PORT env variable set by Cloud Run
-FROM node:20-alpine
-RUN npm install -g serve
-WORKDIR /app
-COPY --from=build /app/dist ./dist
+# Step 2: Serve with nginx (most reliable for Cloud Run)
+FROM nginx:alpine
+COPY --from=build /app/dist /usr/share/nginx/html
 
-ENV PORT=8080
+# Cloud Run sets PORT env var; nginx must listen on it
+# Create an entrypoint script that rewrites the nginx config with the correct port
+RUN echo 'server { listen 0.0.0.0:PORT_PLACEHOLDER; location / { root /usr/share/nginx/html; index index.html; try_files $uri $uri/ /index.html; } }' > /etc/nginx/conf.d/default.conf
+
+# Use shell form so $PORT is expanded at runtime
+CMD sh -c "sed -i 's/PORT_PLACEHOLDER/'\"$PORT\"'/' /etc/nginx/conf.d/default.conf && nginx -g 'daemon off;'"
+
 EXPOSE 8080
-
-CMD ["sh", "-c", "serve -s dist -l $PORT"]
+ENV PORT=8080

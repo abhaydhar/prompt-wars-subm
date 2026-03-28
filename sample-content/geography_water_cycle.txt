@@ -1,0 +1,134 @@
+LESSON: THE WATER CYCLE
+Subject: Geography / Environmental Science | Grade: 6-7 | Duration: 25 minutes
+
+INTRODUCTION
+=============
+The water cycle (also called the hydrological cycle) is the continuous movement of water 
+through the Earth's systems — from the oceans to the sky and back again. It has no 
+beginning and no end; it cycles endlessly.
+
+THE FOUR MAIN PROCESSES
+=========================
+
+PROCESS 1: EVAPORATION
+  What happens: Liquid water turns into water vapour (gas) and rises into the atmosphere.
+  Where it happens: Oceans, lakes, rivers, puddles — any water surface.
+  What causes it: HEAT from the sun provides energy for water molecules to escape.
+  
+  Scale: The oceans supply about 90% of all water vapour in the atmosphere.
+  Rate: 502,800 km³ of water evaporates from oceans every year.
+
+PROCESS 2: TRANSPIRATION
+  What happens: Plants release water vapour through tiny holes in their leaves called 
+  STOMATA. This is similar to evaporation but from plants.
+  
+  EVAPOTRANSPIRATION = Evaporation + Transpiration combined
+  
+  Fun fact: A single large oak tree releases about 200 litres of water per day!
+  Amazon rainforest: Releases so much water it creates its own weather patterns.
+
+PROCESS 3: CONDENSATION
+  What happens: Water vapour cools as it rises higher in the atmosphere. When it cools 
+  enough, it turns back into tiny liquid water droplets around dust particles.
+  These droplets cluster together to form CLOUDS.
+  
+  Dew Point: The temperature at which air becomes saturated with water vapour 
+  and condensation begins.
+  
+  Types of clouds formed:
+  • CUMULUS   - Fluffy, white, like cotton wool. Found at mid-level.
+  • STRATUS   - Flat, grey layers. Bring drizzle and overcast skies.
+  • CIRRUS    - High, thin, wispy streaks of ice crystals.
+  • CUMULONIMBUS - Huge, towering storm clouds. Bring heavy rain and thunder.
+
+PROCESS 4: PRECIPITATION
+  What happens: When water droplets in clouds combine and become too heavy, they fall 
+  back to Earth's surface.
+  
+  Forms of precipitation:
+  • Rain    - Liquid water droplets (>0°C)
+  • Snow    - Ice crystals that fall when temperature is below 0°C throughout
+  • Sleet   - Rain that partially freezes (mix of rain and snow)
+  • Hail    - Balls of ice formed by repeated freezing in storm clouds
+
+ADDITIONAL PROCESSES
+======================
+
+SURFACE RUNOFF
+  After precipitation, water flows over land surfaces into rivers and streams,
+  eventually returning to the ocean. Amount depends on:
+  - Slope of land (steeper = faster runoff)
+  - Rock/soil type (impermeable rock = more runoff)
+  - Vegetation cover (plants slow runoff and increase absorption)
+
+INFILTRATION & GROUNDWATER
+  Water soaks into the soil and rock layers below.
+  - INFILTRATION: Movement of water into the soil
+  - PERCOLATION: Water moves deeper into rock layers (aquifers)
+  - GROUNDWATER: Water stored in underground rock. This feeds springs and wells.
+  - Groundwater can stay underground for hundreds or thousands of years!
+
+THE WATER CYCLE DIAGRAM (described spatially):
+===============================================
+Imagine a cross-section landscape from left to right:
+
+  LEFT: Ocean (large body of water at ground level)
+    ↑ Evaporation arrows rising upward from ocean surface
+    
+  CENTER-LEFT: Rising water vapour forms clouds at altitude
+    ↑ Clouds move inland (right) driven by wind
+    
+  CENTER: Mountain range rises from ground
+    ↓ Heavy precipitation falls on mountain slopes
+    
+  CENTER-RIGHT: Precipitation becomes:
+    → Surface runoff (rivers flowing right back toward ocean)
+    ↓ Infiltration (water sinking into ground)
+    
+  RIGHT: Rivers/streams meet the ocean, cycle begins again.
+  
+  UNDERGROUND: Groundwater slowly flows from mountain to ocean
+               through permeable rock layers (aquifers).
+
+GLOBAL WATER DISTRIBUTION
+===========================
+Total water on Earth: ~1.4 billion km³
+
+  97.5% = Salt water (oceans) - NOT directly drinkable
+   2.5% = Fresh water
+        Of that 2.5%:
+        68.7% = Locked in glaciers and ice caps
+        30.1% = Groundwater
+         0.9% = Other (soil moisture, atmosphere, swamps)
+         0.3% = Surface freshwater (rivers, lakes) ← ONLY THIS IS EASILY ACCESSIBLE
+
+The water cycle is what REPLENISHES this accessible freshwater supply continuously.
+
+CLIMATE CHANGE AND THE WATER CYCLE
+=====================================
+Global warming is affecting the water cycle:
+• Higher temperatures → MORE evaporation → More water vapour in atmosphere
+• More water vapour → More intense storms and heavier rainfall events
+• Glaciers melting → Changes in river flows seasonally
+• Some regions getting WETTER, others getting DRIER
+• Rising sea levels from glacier melt changes coastal water movement
+
+KEY VOCABULARY
+===============
+- Evaporation: Liquid water → water vapour due to heat
+- Condensation: Water vapour → liquid water droplets (clouds)
+- Precipitation: Water falling from clouds (rain, snow, sleet, hail)
+- Transpiration: Water vapour released by plants
+- Infiltration: Water soaking into soil
+- Groundwater: Water stored underground in rock layers (aquifers)
+- Runoff: Water flowing over land surface into rivers
+- Hydrological cycle: Another name for the water cycle
+
+REVIEW QUESTIONS
+=================
+1. What energy source drives the water cycle?
+2. Explain the difference between evaporation and condensation.
+3. Why is the Amazon rainforest important for the water cycle?
+4. What is the dew point?
+5. Why is global warming a concern for the water cycle?
+6. If only 0.3% of Earth's water is easily accessible freshwater, why don't we run out?

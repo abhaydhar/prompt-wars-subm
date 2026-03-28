@@ -1,0 +1,122 @@
+LESSON: SOLVING QUADRATIC EQUATIONS
+Subject: Mathematics | Grade: 9-10 | Duration: 45 minutes
+
+WHAT IS A QUADRATIC EQUATION?
+================================
+A quadratic equation is a polynomial equation of degree 2 (the highest power of x is 2).
+
+Standard Form:  ax² + bx + c = 0
+
+Where:
+  a = coefficient of x² (must NOT be zero)
+  b = coefficient of x
+  c = constant term (the number with no x)
+
+Examples:
+  x² - 5x + 6 = 0         (a=1, b=-5, c=6)
+  2x² + 3x - 2 = 0        (a=2, b=3, c=-2)
+  x² - 9 = 0              (a=1, b=0, c=-9)
+
+THE GRAPH OF A QUADRATIC (PARABOLA)
+======================================
+When you plot a quadratic equation, you get a U-shaped curve called a PARABOLA.
+
+  • If a > 0: Parabola opens UPWARD  ∪  (like a bowl)
+  • If a < 0: Parabola opens DOWNWARD ∩  (like a hill)
+
+ANATOMY OF A PARABOLA (from left to right):
+  [LEFT ROOT]                 [VERTEX]                [RIGHT ROOT]
+  x = root 1                  lowest/highest point    x = root 2
+  (where curve crosses x-axis)  (x = -b/2a)          (where curve crosses x-axis)
+
+The solutions (roots) of a quadratic equation are the x-values where the parabola crosses the x-axis.
+
+THREE METHODS TO SOLVE QUADRATIC EQUATIONS
+=============================================
+
+METHOD 1: FACTORISATION
+  Best when: Numbers are small and factorise neatly
+  
+  Example: Solve x² - 5x + 6 = 0
+  
+  STEP 1: Find two numbers that MULTIPLY to give c (+6) and ADD to give b (-5)
+          Think: what multiplies to 6 and adds to -5?
+          Answer: -2 and -3 (because -2 × -3 = 6 and -2 + -3 = -5)
+  
+  STEP 2: Write as two brackets:
+          (x - 2)(x - 3) = 0
+  
+  STEP 3: If A × B = 0, then either A = 0 OR B = 0
+          Either: x - 2 = 0  →  x = 2
+          Or:     x - 3 = 0  →  x = 3
+  
+  ANSWER: x = 2 or x = 3
+  
+  CHECK: Substitute back: (2)² - 5(2) + 6 = 4 - 10 + 6 = 0 ✓
+
+METHOD 2: THE QUADRATIC FORMULA
+  Best when: Factorisation is difficult or numbers are messy
+  
+  THE FORMULA:     x = (-b ± √(b² - 4ac)) / 2a
+  
+  This formula ALWAYS works for any quadratic equation.
+  
+  Example: Solve 2x² + 3x - 2 = 0
+  
+  STEP 1: Identify a, b, c:   a = 2,  b = 3,  c = -2
+  
+  STEP 2: Calculate the DISCRIMINANT (b² - 4ac) first:
+          b² - 4ac = 3² - 4(2)(-2)
+                   = 9 - (-16)
+                   = 9 + 16
+                   = 25
+  
+  STEP 3: Substitute into the formula:
+          x = (-3 ± √25) / (2 × 2)
+          x = (-3 ± 5) / 4
+  
+  STEP 4: Calculate both solutions:
+          x = (-3 + 5) / 4 = 2/4 = 0.5
+          x = (-3 - 5) / 4 = -8/4 = -2
+  
+  ANSWER: x = 0.5 or x = -2
+
+METHOD 3: COMPLETING THE SQUARE
+  Best when: You need the vertex of the parabola
+  
+  Example: Solve x² + 6x + 5 = 0
+  
+  STEP 1: Rearrange: x² + 6x = -5
+  STEP 2: Add (b/2)² to both sides: x² + 6x + 9 = -5 + 9 = 4
+  STEP 3: Write left side as perfect square: (x + 3)² = 4
+  STEP 4: Square root both sides: x + 3 = ±2
+  STEP 5: Solve: x = -3 + 2 = -1  or  x = -3 - 2 = -5
+  
+  ANSWER: x = -1 or x = -5
+
+THE DISCRIMINANT - PREDICTING NUMBER OF SOLUTIONS
+====================================================
+The discriminant (Δ) = b² - 4ac
+
+  Δ > 0 :  TWO distinct real roots   (parabola crosses x-axis twice)
+  Δ = 0 :  ONE repeated real root    (parabola just touches x-axis)
+  Δ < 0 :  NO real roots             (parabola does not cross x-axis)
+
+REAL-WORLD APPLICATIONS
+=========================
+Projectile Motion: h = -16t² + vt + h₀
+  (Height of a ball thrown in the air - solve to find when it lands)
+
+Area Problems: A rectangle's area = length × width
+  If length = (x+3) and width = (x-1) and area = 18:
+  (x+3)(x-1) = 18  →  x² + 2x - 3 = 18  →  x² + 2x - 21 = 0
+
+Economics: Profit = Revenue - Cost (often quadratic models)
+
+PRACTICE PROBLEMS
+==================
+1. Solve by factorisation:  x² - 7x + 12 = 0
+2. Solve using the formula: 3x² - 5x - 2 = 0
+3. Find the discriminant of: x² + 2x + 5 = 0. How many real solutions?
+4. A ball is thrown upward. Its height is h = -5t² + 20t + 2. When does it hit the ground?
+5. Solve by completing the square: x² - 4x - 12 = 0

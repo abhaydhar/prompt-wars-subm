@@ -1,0 +1,77 @@
+LESSON: PHOTOSYNTHESIS - HOW PLANTS MAKE FOOD
+Subject: Biology | Grade: 8 | Duration: 30 minutes
+
+INTRODUCTION
+============
+Photosynthesis is the fundamental process by which plants, algae, and some bacteria convert light energy from the sun into chemical energy stored in glucose (sugar). This process is the foundation of almost all life on Earth, as it produces the oxygen we breathe and the food energy that flows through ecosystems.
+
+THE PHOTOSYNTHESIS EQUATION
+============================
+The overall chemical equation for photosynthesis is:
+
+  6CO₂  +  6H₂O  +  Light Energy  →  C₆H₁₂O₆  +  6O₂
+(Carbon Dioxide + Water + Sunlight → Glucose + Oxygen)
+
+WHERE DOES PHOTOSYNTHESIS OCCUR?
+==================================
+Photosynthesis happens inside the CHLOROPLAST, a specialized organelle found in plant cells.
+
+Structure of a Chloroplast:
+  [OUTER MEMBRANE] - Outer protective layer
+  [INNER MEMBRANE] - Inner barrier
+  [THYLAKOIDS]     - Flat, disc-shaped sacs arranged in stacks called GRANA
+                     → This is where the LIGHT-DEPENDENT REACTIONS happen
+                     → Contains CHLOROPHYLL (the green pigment that absorbs light)
+  [STROMA]         - Fluid surrounding the thylakoids
+                     → This is where the LIGHT-INDEPENDENT REACTIONS (Calvin Cycle) happen
+
+THE TWO STAGES OF PHOTOSYNTHESIS
+==================================
+
+STAGE 1: LIGHT-DEPENDENT REACTIONS (in the Thylakoids)
+  Step 1: Chlorophyll absorbs sunlight (mainly red and blue light)
+  Step 2: Water molecules are split (PHOTOLYSIS): 2H₂O → 4H⁺ + 4e⁻ + O₂
+  Step 3: Oxygen is released as a by-product (this is the O₂ we breathe!)
+  Step 4: Energy is captured as ATP and NADPH - these are energy carrier molecules
+
+STAGE 2: LIGHT-INDEPENDENT REACTIONS - CALVIN CYCLE (in the Stroma)
+  Step 1: CO₂ from the air enters and is "fixed" by an enzyme called RuBisCO
+  Step 2: CO₂ combines with a 5-carbon molecule (RuBP) to form a 6-carbon compound
+  Step 3: ATP and NADPH from Stage 1 are used to convert this into G3P
+  Step 4: G3P is used to make glucose and to regenerate RuBP
+  Step 5: The cycle continues...
+
+FACTORS AFFECTING PHOTOSYNTHESIS
+===================================
+1. LIGHT INTENSITY  → More light = faster photosynthesis (up to a maximum)
+2. CARBON DIOXIDE   → More CO₂ = faster photosynthesis (up to a maximum)
+3. TEMPERATURE      → Optimum temperature: 25-35°C. Too hot or cold slows it down.
+4. WATER AVAILABILITY → Without water, photosynthesis cannot occur
+5. CHLOROPHYLL      → More chlorophyll allows more light absorption
+
+REAL-WORLD IMPORTANCE
+=======================
+• FOOD WEBS: Plants are producers - they create energy for all other organisms
+• OXYGEN PRODUCTION: Forests like the Amazon produce ~20% of Earth's oxygen
+• CARBON CAPTURE: Photosynthesis removes CO₂, helping regulate climate
+• AGRICULTURE: Understanding photosynthesis helps improve crop yields
+• BIOFUELS: Scientists are engineering plants to produce energy more efficiently
+
+KEY VOCABULARY
+===============
+- Chloroplast: Organelle where photosynthesis occurs
+- Chlorophyll: Green pigment that absorbs sunlight
+- Thylakoid: Membrane structure where light reactions occur
+- Stroma: Fluid where Calvin Cycle occurs
+- ATP: Adenosine triphosphate - the cell's energy currency
+- Calvin Cycle: Series of reactions that fix CO₂ into glucose
+- Photolysis: Splitting of water molecules using light energy
+- RuBisCO: Enzyme that fixes CO₂ in the Calvin Cycle
+
+QUICK REVIEW QUESTIONS
+========================
+1. What is the overall equation for photosynthesis?
+2. Where exactly in the chloroplast does the Calvin Cycle take place?
+3. What three things does a plant need to carry out photosynthesis?
+4. Why is photosynthesis important for animals that do not photosynthesise?
+5. What happens to photosynthesis rate if the temperature rises above 40°C?

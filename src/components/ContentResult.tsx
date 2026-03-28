@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { 
   Box, Container, Typography, Stack, IconButton, Tab, Tabs, 
   Card, CardContent, Button, Divider, List, ListItem, 
-  ListItemIcon, ListItemText, Checkbox, Chip, Paper
+  ListItemIcon, ListItemText, Checkbox, Chip, Paper, Grid
 } from '@mui/material';
 import { 
   ArrowLeft, Video, FileText, Fingerprint, Layers, 
@@ -54,7 +54,7 @@ const ContentResult: React.FC<ContentResultProps> = ({ content, onBack }) => {
           {content.formats.tactileDescription}
         </Typography>
       </Card>
-      <Typography variant="body2" color="muted-foreground">This guide describes visual spatial relationships for screen reader users and tactile feedback.</Typography>
+      <Typography variant="body2" color="text.secondary">This guide describes visual spatial relationships for screen reader users and tactile feedback.</Typography>
     </Box>
   );
 
@@ -88,7 +88,7 @@ const ContentResult: React.FC<ContentResultProps> = ({ content, onBack }) => {
   const renderSummaries = () => (
     <Box className="animate-in">
       <Typography variant="h6" gutterBottom>Personalized Pace Summaries</Typography>
-      <Grid container spacing={3} mt={1}>
+      <Grid container spacing={3} sx={{ mt: 1 }}>
         <Grid item xs={12} md={4}>
           <Card sx={{ height: '100%', borderTop: '4px solid', borderColor: 'success.main' }}>
             <CardContent>
@@ -186,4 +186,3 @@ const ContentResult: React.FC<ContentResultProps> = ({ content, onBack }) => {
 };
 
 export default ContentResult;
-import { Grid } from '@mui/material';
